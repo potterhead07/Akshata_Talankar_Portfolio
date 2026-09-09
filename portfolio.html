@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshata Talankar | Digital Marketing & Copywriting Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-hover: #273549;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --tag-bg: #334155;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); line-height: 1.6; padding: 2.5rem 1.25rem; }
+    .container { max-width: 880px; margin: 0 auto; }
+
+    /* Header / Hero */
+    header { padding: 2.5rem 0 2rem; border-bottom: 1px solid var(--border); }
+    .badge { display: inline-block; background: rgba(56, 189, 248, 0.15); color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem; }
+    h1 { font-size: 2.4rem; line-height: 1.2; margin-bottom: 0.5rem; }
+    .tagline { font-size: 1.05rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .contact-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
+    .btn { display: inline-flex; align-items: center; background: var(--accent); color: #0f172a; padding: 0.55rem 1.15rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { background: var(--card-bg); }
+
+    /* Sections */
+    section { margin-top: 3rem; }
+    h2 { font-size: 1.4rem; margin-bottom: 1.2rem; color: #f8fafc; }
+    
+    /* Highlight Cards */
+    .featured-box { background: linear-gradient(135deg, #1e293b 0%, #172554 100%); border: 1px solid #2563eb; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; }
+    .featured-box h3 { color: #60a5fa; font-size: 1.25rem; margin-bottom: 0.4rem; }
+    .featured-box p { color: #cbd5e1; font-size: 0.92rem; margin-bottom: 0.75rem; }
+    .featured-box ul { list-style-position: inside; color: #cbd5e1; font-size: 0.9rem; margin-bottom: 1rem; }
+
+    /* Grid Cards */
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1rem; }
+    .card { background: var(--card-bg); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border); display: flex; flex-direction: column; justify-content: space-between; }
+    .card h3 { font-size: 1.05rem; margin-bottom: 0.35rem; color: #fff; }
+    .card .subtitle { font-size: 0.75rem; color: var(--accent); text-transform: uppercase; font-weight: 600; margin-bottom: 0.4rem; }
+    .card p { color: var(--muted); font-size: 0.88rem; margin-bottom: 0.8rem; }
+    .card a { color: var(--accent); text-decoration: none; font-size: 0.85rem; font-weight: 500; }
+    .card a:hover { text-decoration: underline; }
+
+    /* Skills & Meta */
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .tag { background: var(--tag-bg); color: #e2e8f0; padding: 0.3rem 0.75rem; border-radius: 6px; font-size: 0.82rem; }
+    .skill-group { margin-bottom: 1rem; }
+    .skill-title { font-size: 0.9rem; font-weight: 600; color: var(--accent); margin-bottom: 0.3rem; }
+
+    /* Timeline / Work Experience */
+    .timeline { display: flex; flex-direction: column; gap: 1.5rem; }
+    .timeline-item { border-left: 2px solid var(--border); padding-left: 1.25rem; position: relative; }
+    .timeline-item::before { content: ""; position: absolute; left: -5px; top: 6px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+    .timeline-item h4 { font-size: 1.05rem; color: #fff; }
+    .timeline-item .meta { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.5rem; }
+    .timeline-item ul { list-style-type: disc; margin-left: 1.1rem; color: #cbd5e1; font-size: 0.88rem; display: flex; flex-direction: column; gap: 0.35rem; }
+
+    footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Hero / Intro -->
+    <header>
+      <span class="badge">Dublin, Ireland • Stamp 1G</span>
+      <h1>Hi, I'm <span style="color: var(--accent);">Akshata Talankar</span></h1>
+      <p class="tagline">
+        Digital Marketing Enthusiast with an MSc in Marketing and over two years of experience delivering integrated marketing campaigns across digital platforms. Proven track record in monthly content calendars, plain English copywriting, SEO optimization, and performance reporting via Google Analytics and Search Console.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:akshutalankar@gmail.com" class="btn">Get in Touch</a>
+        <a href="https://linkedin.com/in/akshata-talankar" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+        <a href="tel:+353899531036" class="btn btn-secondary">+353 89 953 1036</a>
+      </div>
+    </header>
+
+    <!-- Completed 75-Day Challenge Spotlight -->
+    <section>
+      <div class="featured-box">
+        <span class="badge" style="background: rgba(96, 165, 250, 0.2); color: #93c5fd;">Writing Project • Completed August 26, 2026</span>
+        <h3>LinkedIn 75-Day Writing Challenge: 3 Years in Ireland</h3>
+        <p>
+          A self-directed daily writing project documenting 3 years of living, studying, and working across Ireland. Finished on August 26, 2026, the series demonstrates consistent daily writing discipline, narrative hooks, plain English copy, and storytelling focused on cultural observations and industry insights.
+        </p>
+        <ul>
+          <li><strong>Discipline:</strong> 75 consecutive daily posts published without missing a deadline.</li>
+          <li><strong>Focus:</strong> Short-form hooks, expat realities, professional takeaways, and audience engagement.</li>
+        </ul>
+        <a href="https://linkedin.com/in/akshata-talankar" target="_blank" class="btn" style="background: #60a5fa;">Read the Series on LinkedIn &rarr;</a>
+      </div>
+    </section>
+
+    <!-- Writing & Scriptwriting Samples -->
+    <section>
+      <h2>Copywriting & Scriptwriting Samples</h2>
+      <div class="grid">
+        <div class="card">
+          <div>
+            <div class="subtitle">AV Scriptwriting</div>
+            <h3>L&T Defence — K9 Vajra-T Corporate Documentary</h3>
+            <p>Authored a two-column AV narration script pairing narration with visual direction for L&T Defence's self-propelled howitzer programme, built around interviews with company leadership and archival material.</p>
+          </div>
+          <span style="font-size: 0.8rem; color: var(--muted);">Sample available on request</span>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="subtitle">Campaign Copywriting</div>
+            <h3>TVC & Short-Form Ad Scripts</h3>
+            <p>Wrote scripts for 3 TVC and short-form ad campaigns and pitched 5 original creative concepts for client and leadership review at Purple Flicks.</p>
+          </div>
+          <span style="font-size: 0.8rem; color: var(--muted);">Sample available on request</span>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="subtitle">Published Content Writing</div>
+            <h3>Brand & Video Format Explainer Articles</h3>
+            <p>Published articles covering how brand films build customer intrigue without reading as advertising, differences between ad vs. corporate films, and animated/live-action explainer styles.</p>
+          </div>
+          <span style="font-size: 0.8rem; color: var(--muted);">Samples on Portfolio Drive / LinkedIn</span>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="subtitle">Creative Theatre Script</div>
+            <h3>Street Drama Script</h3>
+            <p>Wrote an original script for a street drama performed and produced by a college theatre group, credited as writer in the end production.</p>
+          </div>
+          <a href="https://www.youtube.com/watch?v=DiRM6K8Kw84" target="_blank">Watch Performance &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience with Exact CV Points -->
+    <section>
+      <h2>Professional Experience</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <h4>Online Marketing Associate • Feedspot</h4>
+          <div class="meta">Mumbai, India | Aug 2021 – Jul 2023</div>
+          <ul>
+            <li><strong>Content Operations:</strong> Orchestrated the publishing of 30+ monthly SEO-optimized articles, improving search visibility and ensuring readability for a global audience.</li>
+            <li><strong>Data-Driven Iteration:</strong> Analyzed performance via Google Analytics and Search Console, leading to a 15% increase in organic traffic through data-backed content updates.</li>
+            <li><strong>Stakeholder Engagement:</strong> Streamlined communication between 3+ internal teams to ensure 100% on-time delivery of marketing initiatives and monthly reports.</li>
+            <li><strong>Market Research:</strong> Conducted competitor analysis that identified 5+ new content opportunities per quarter, strengthening digital positioning.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h4>Content Writer • Purple Flicks</h4>
+          <div class="meta">Mumbai, India | Nov 2020 – May 2021</div>
+          <ul>
+            <li><strong>User-Centred Content:</strong> Authored 50+ digital assets, including video scripts and social copy, maintaining a consistent brand tone across all integrated channels.</li>
+            <li><strong>Quality Assurance:</strong> Collaborated with designers to iterate content based on engagement signals, resulting in a 10% boost in social media reach.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h4>Social Media Marketing Intern • DigiF5</h4>
+          <div class="meta">Mumbai, India | Jan 2019 – Feb 2019</div>
+          <ul>
+            <li><strong>Content Planning:</strong> Supported scheduling and planning for digital channels; researched trends and hashtags to improve performance.</li>
+            <li><strong>SEO Optimisation:</strong> Contributed SEO-optimised blog content and assisted with community engagement activities.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h4>Catering Assistant & Venue Operations • BaxterStorey & Croke Park</h4>
+          <div class="meta">Dublin, Ireland | Apr 2024 – Present</div>
+          <ul>
+            <li><strong>Task & Pressure Management:</strong> Supported guest experience during high-profile events in fast-paced environments, prioritizing tasks and meeting tight service deadlines.</li>
+            <li><strong>Operational Reporting & Teamwork:</strong> Maintained accurate digital records for inventory and orders; collaborated across teams to deliver consistent standards.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Core Skills from CV -->
+    <section>
+      <h2>Core Skills & Competencies</h2>
+      
+      <div class="skill-group">
+        <div class="skill-title">Content Design & Strategy</div>
+        <div class="tags">
+          <span class="tag">Plain English Writing</span>
+          <span class="tag">Copywriting & Scriptwriting</span>
+          <span class="tag">Editorial Coordination</span>
+          <span class="tag">On-Page SEO</span>
+          <span class="tag">Content Iteration</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-title">Systems, CMS & Tools</div>
+        <div class="tags">
+          <span class="tag">WordPress</span>
+          <span class="tag">Mailchimp</span>
+          <span class="tag">Google Analytics</span>
+          <span class="tag">Google Search Console</span>
+          <span class="tag">Microsoft 365 (Excel, Teams, Outlook)</span>
+          <span class="tag">Canva</span>
+          <span class="tag">CapCut</span>
+          <span class="tag">Adobe Creative Suite (Basic)</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-title">Certifications</div>
+        <div class="tags">
+          <span class="tag">Google Ads Search Certification</span>
+          <span class="tag">AI Powered Performance Ads (Google)</span>
+          <span class="tag">Fundamentals of Digital Marketing (Google Garage)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="subtitle">National College of Ireland (Dublin)</div>
+          <h3>MSc in Marketing</h3>
+          <p>Graduated 2024</p>
+        </div>
+        <div class="card">
+          <div class="subtitle">St. Francis Institute of Technology (Mumbai)</div>
+          <h3>B.E. in Computer Science</h3>
+          <p>Graduated 2021</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Akshata Talankar • Built with clean HTML & CSS</p>
+    </footer>
+
+  </div>
+</body>
+</html>
