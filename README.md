@@ -2,7 +2,7 @@
 
 Welcome to the source repository for my personal portfolio website, hosted live via GitHub Pages.
 
-🔗 **Live Portfolio:** [View Website]([https://potterhead07.github.io/portfolio/])  
+🔗 **Live Portfolio:** [View Website](https://potterhead07.github.io/Akshata_Talankar_Portfolio/)  
 📍 **Location:** Dublin, Ireland  
 💼 **LinkedIn:** [linkedin.com/in/akshata-talankar](https://linkedin.com/in/akshata-talankar)  
 📧 **Email:** [akshutalankar@gmail.com](mailto:akshutalankar@gmail.com)
