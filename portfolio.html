@@ -21,6 +21,8 @@
 
     /* Header / Hero */
     header { padding: 2.5rem 0 2rem; border-bottom: 1px solid var(--border); }
+    .hero-flex { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
+    .avatar { width: 170px; height: 170px; border-radius: 50%; border: 4px solid var(--border); object-fit: cover; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
     .badge { display: inline-block; background: rgba(56, 189, 248, 0.15); color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem; }
     h1 { font-size: 2.4rem; line-height: 1.2; margin-bottom: 0.5rem; }
     .tagline { font-size: 1.05rem; color: var(--muted); margin-bottom: 1.5rem; }
@@ -70,15 +72,22 @@
     
     <!-- Hero / Intro -->
     <header>
-      <span class="badge">Dublin, Ireland • Stamp 1G</span>
-      <h1>Hi, I'm <span style="color: var(--accent);">Akshata Talankar</span></h1>
-      <p class="tagline">
-        Digital Marketing Enthusiast with an MSc in Marketing and over two years of experience delivering integrated marketing campaigns across digital platforms. Proven track record in monthly content calendars, plain English copywriting, SEO optimization, and performance reporting via Google Analytics and Search Console.
-      </p>
-      <div class="contact-links">
-        <a href="mailto:akshutalankar@gmail.com" class="btn">Get in Touch</a>
-        <a href="https://linkedin.com/in/akshata-talankar" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
-        <a href="tel:+353899531036" class="btn btn-secondary">+353 89 953 1036</a>
+      <div class="hero-flex">
+        <!-- Make sure your image file in the repo matches this filename -->
+        <img src="akshata.jpg" alt="Akshata Talankar" class="avatar" />
+        
+        <div style="flex: 1; min-width: 280px;">
+          <span class="badge">Dublin, Ireland • Stamp 1G</span>
+          <h1>Hi, I'm <span style="color: var(--accent);">Akshata Talankar</span></h1>
+          <p class="tagline">
+            Digital Marketing Enthusiast with an MSc in Marketing and over two years of experience delivering integrated marketing campaigns across digital platforms. Proven track record in monthly content calendars, plain English copywriting, SEO optimization, and performance reporting via Google Analytics and Search Console.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:akshutalankar@gmail.com" class="btn">Get in Touch</a>
+            <a href="https://linkedin.com/in/akshata-talankar" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+            <a href="tel:+353899531036" class="btn btn-secondary">+353 89 953 1036</a>
+          </div>
+        </div>
       </div>
     </header>
 
